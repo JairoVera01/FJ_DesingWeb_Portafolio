@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .header {
   z-index: 100;
   position: fixed;
@@ -10,7 +11,7 @@
 }
 
 .nombre {
-  color: black;
+  color: #414756;
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
   font-size: 2rem;
@@ -29,26 +30,9 @@
   font-weight: 600;
 }
 
-.hero-img {
-  height: 100vh;
-  width: 100%;
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: relative;
-  overflow: hidden;
-}
-
-/*HERO SECTION*/
 .hero__section {
-  height: 100vh;
-  background-image: url("../../../assets/img/hero_img.jpg");
+  height: 90vh;
+  background-image: url("../../../assets/img/Hero_1.jpg");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -61,36 +45,83 @@
   position: relative;
   overflow: hidden;
   z-index: 2;
-  /*Para ordenar div - suerponer uno por otro */
-}
-
-.hero__titulo {
-  color: white;
-  font-size: 5rem;
-  -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-}
-
-.hero__subtitulo {
-  font-size: 2.5rem;
-  -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-}
-
-.btn__aboutme {
-  font-size: 1.2rem;
-  -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-}
-
-.text__btn {
-  text-decoration: none;
-  color: black;
 }
 
 .hero__section {
-  -webkit-animation: bg-pan-top 45s both;
-  animation: bg-pan-top 45s both;
+  -webkit-animation: bg-pan-top 55s both;
+  animation: bg-pan-top 55s both;
+}
+
+.titulo-descripcion, .subtitulo-descripcion {
+  color: #F4F9FF;
+  font-family: 'Rubik', sans-serif;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 1px solid #4f4f4f;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  font-size: 19px;
+  color: black;
+  z-index: 1;
+}
+
+.button:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  -webkit-transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  -webkit-transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: #39bda7;
+  border-radius: 50%;
+  display: block;
+  -webkit-transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button:hover {
+  color: #ffffff;
+  border: 1px solid #39bda7;
+}
+
+.button:hover:before {
+  top: -35%;
+  background-color: #39bda7;
+  -webkit-transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.button:hover:after {
+  top: -45%;
+  background-color: #39bda7;
+  -webkit-transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
 
 /*Movimiento de fondo*/

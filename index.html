@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/scss/styles.css">
-    <link rel="shortcut icon" href="./assets/img/perfil.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="shortcut icon" href="./assets/img/Favi.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <title>FJ - Portafolio Web</title>
     
 </head>
@@ -14,7 +17,7 @@
     <header class="header ">
         <nav class="d-flex justify-content-between bd-highlight bg-color align-self-center container-fluid">
             <div class=" bd-highlight ">
-                <h1 class="nombre">Jairo Vera - Portafolio</h1>
+                <h1 class="nombre">Jairo Vera</h1>
             </div>
             <div class="bd-highlight align-self-center ">
                 <div class="navbar navbar-expand-lg navbar-light">
@@ -44,21 +47,26 @@
         </nav>
     </header>
     <main>
-        <section class="container-fluid">
-            <div class="">
-                
-            </div>
-        </section>
-        <section class="hero__section container-fluid">  
+        <section class="hero__section container-fluid">
             <div class="container">
-                <h1 class="hero__titulo text-center mb-4">
-                    Marvel Superheroes
-                </h1>  
-                <div class="text-center">
-                    <button type="button" class="btn btn__aboutme btn-light mb-2">
-                        <a class="text__btn" href="./assets/pages/home.html">Entrar</a>
-                </div>    
-            </div>         
+                <div class="row row-cols-1 row-cols-md-2 mb-3 ">
+                    <div class="col">
+                        <img src="./assets/img/Web_4.svg" alt="">
+                    </div>
+                    <div class="col text-center">
+                        <h1 class="titulo-descripcion">Jairo Vera - Portafolio</h1>
+                        <p class="subtitulo-descripcion">Diseñador Web</p>      
+                        <p class="subtitulo-descripcion text-justify">Soy estudiante de Ingeniería de Sistemas por la Universidad Privada del Norte y durante la carrera, he tenido la oportunidad de estudiar diferentes lenguajes de programación y entornos de programación como Visual Studio, NetBeans, Android Studio, entre otros. Actualmente me encuentro especializandome en diseño y desarrollo web en CoderHouse - Argentina. Te invito a conocerme un poco más en mi Hoja de vida (CV).</p>   
+                        <div class="container"></div>
+                                <button class="button">
+                                    <a download="" href="./assets/pdf/CV_FRANKJAIROVERACHAMORRO.pdf">Descargar CV</a><i class="uil uil-download-alt button__icon"></i>
+                                </button>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>        
         </section><!--Fin de HeroSection-->
     
     </main>
@@ -67,6 +75,10 @@
     </footer>
 
     <!-- **** Scripts *****-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
