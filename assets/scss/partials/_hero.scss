@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .hero__section{
-    height: 90vh;
+    height: 100vh;
     background-image: url("../../../assets/img/Hero_1.jpg");
     background-position: bottom;
     background-size: cover;
@@ -15,6 +15,11 @@
             animation: bg-pan-top 55s both;
 }
 
+@media (max-width: 768px) {
+    .img-hero{
+        height: 220px;
+    }
+}
 
 .titulo-descripcion, .subtitulo-descripcion{
     color: $color-txt-titulos;
@@ -28,6 +33,7 @@
 
 
 .button-hero {
+    font-family: 'Rubik', sans-serif;
     display: inline-block;
     padding: 12px 24px;
     border: 1px solid #4f4f4f;

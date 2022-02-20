@@ -1,0 +1,26 @@
+/*Boton flotante para wsp*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:50px;
+	/*background-color:$color-principal;*/
+	background-image: linear-gradient(135deg, $color-secundario 0%, $color-principal 100%);
+	color:#FFF;
+	border-radius:55px;
+	
+    text-align: center ;
+    font-size:40px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+		&:hover{
+			background-image: linear-gradient(135deg,  $color-secundario 100%, $color-principal 0%);
+			text-decoration: none;
+			color: $color-principal;
+		}
+}
+
+.my-float{
+	margin-top:16px;
+}

@@ -32,7 +32,7 @@
 }
 
 .hero__section {
-  height: 90vh;
+  height: 100vh;
   background-image: url("../../../assets/img/Hero_1.jpg");
   background-position: bottom;
   background-size: cover;
@@ -50,6 +50,12 @@
   animation: bg-pan-top 55s both;
 }
 
+@media (max-width: 768px) {
+  .img-hero {
+    height: 220px;
+  }
+}
+
 .titulo-descripcion, .subtitulo-descripcion {
   color: #F4F9FF;
   font-family: 'Rubik', sans-serif;
@@ -61,6 +67,7 @@
 }
 
 .button-hero {
+  font-family: 'Rubik', sans-serif;
   display: inline-block;
   padding: 12px 24px;
   border: 1px solid #4f4f4f;
@@ -218,5 +225,33 @@
 .titulo-estudios, .titulo-certificaciones, .titulo-institucion, .subtitulo-institucion, .subtitulo-estado {
   color: #414756;
   font-family: 'Rubik', sans-serif;
+}
+
+/*Boton flotante para wsp*/
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 50px;
+  /*background-color:$color-principal;*/
+  background-image: linear-gradient(135deg, #A5ABBD 0%, #414756 100%);
+  color: #FFF;
+  border-radius: 55px;
+  text-align: center;
+  font-size: 40px;
+  -webkit-box-shadow: 2px 2px 3px #999;
+          box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.float:hover {
+  background-image: linear-gradient(135deg, #A5ABBD 100%, #414756 0%);
+  text-decoration: none;
+  color: #414756;
+}
+
+.my-float {
+  margin-top: 16px;
 }
 /*# sourceMappingURL=styles.css.map */
