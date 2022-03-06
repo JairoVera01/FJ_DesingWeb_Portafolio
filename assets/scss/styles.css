@@ -32,7 +32,7 @@
 }
 
 .hero__section {
-  height: 100vh;
+  height: 110vh;
   background-image: url("../../../assets/img/Hero_1.jpg");
   background-position: bottom;
   background-size: cover;
@@ -53,6 +53,8 @@
 @media (max-width: 768px) {
   .img-hero {
     height: 220px;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
 }
 
