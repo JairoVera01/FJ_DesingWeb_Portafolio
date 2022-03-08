@@ -22,33 +22,29 @@
     </div>
     <header class="header ">
         <!-- Navbar -->
-        <nav class="d-flex justify-content-between bd-highlight bg-color align-self-center container-fluid">
-            <div class=" bd-highlight ">
-                <h1 class="nombre">Jairo Vera</h1>
-            </div>
-            <div class="bd-highlight align-self-center ">
-                <div class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse " id="navbarNav">
-                        <ul class="navbar-nav ">
-                        <li class="nav-item nav-options">
-                            <a class="nav-link" aria-current="page" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item nav-options">
-                            <a class="nav-link" href="#">Estudios</a>
-                        </li>
-                        <li class="nav-item nav-options">
-                            <a class="nav-link" href="#">Proyectos</a>
-                        </li>
-                        <li class="nav-item nav-options">
-                            <a class="nav-link" href="#">Contacto</a>
-                        </li>
-                        </ul>
-                    </div>
-                    </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-color ">
+            <div class="container-fluid">
+                <div class="">
+                    <h1 class="nombre">Jairo Vera</h1>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ">
+                    <li class="nav-item nav-options">
+                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item nav-options">
+                        <a class="nav-link" href="#">Estudios</a>
+                    </li>
+                    <li class="nav-item nav-options">
+                        <a class="nav-link" href="#">Proyectos</a>
+                    </li>
+                    <li class="nav-item nav-options">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -100,9 +96,22 @@
         </section>
         <!-- Hero Section -->
         <!-- Estudios -->
-        <section class="estudios__section">
+        <!-- <section class="estudios__section">
             <div class="container text-center">
                 <h1 class="titulo-estudios "><u>Mis Estudios</u></h1>
+            </div>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                    
+                    </div>
+                </div>
             </div>
             <div class="">
                 <div class="row row-cols-1 row-cols-md-2 container-fluid">
@@ -132,8 +141,93 @@
                     </div>    
                 </div>
             </div>
-            <hr>
-            <div class="container text-center">
+        </section>  -->
+        <section class="light">
+            <div class="container py-2 ">
+                <div class="h1 text-center text-dark titulo-estudios " id="pageHeaderTitle">Mis estudios</div>
+                
+                <article class="postcard light blue">
+                    <a class="postcard__img_link" href="#">
+                        <img class="postcard__img" src="./assets/img/Logo_UPN.png" alt="Logo Universidad Privada del Norte"/>
+                    </a>
+                    <div class="postcard__text t-dark">
+                        <h1 class="postcard__title blue"><a href="#">Ingeniera de sistemas</a></h1>
+                        <div class="postcard__subtitle small">
+                            <p class="titulo-institucion mr-2">UPN - Perú</p>
+                        </div>
+                        <div class="postcard__bar"></div>
+                        <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                        <ul class="postcard__tagbox">
+                            <!-- <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                            <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li> -->
+                            <li class="tag__item play red">
+                                <a href="#"><i class="fas fa-play mr-2"></i>IX - CICLO (Cursando)</a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                
+                <article class="postcard light red">
+                    <a class="postcard__img_link" href="#">
+                        <img class="postcard__img" src="./assets/img/Logo_Coder.jpg" alt="Logo CoderHouse"/>	
+                    </a>
+                    <div class="postcard__text t-dark">
+                        <h1 class="postcard__title red"><a href="#">Desarrollo web</a></h1>
+                        <div class="postcard__subtitle small">
+                            <p class="titulo-institucion mr-2">CoderHouse - Argentina</p>
+                        </div>
+                        <div class="postcard__bar"></div>
+                        <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                        <ul class="postcard__tagbox">
+                            <li class="tag__item play red">
+                                <a href="#"><i class="fas fa-play mr-2"></i>Concluido - Certificado</a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="postcard light green">
+                    <a class="postcard__img_link" href="#">
+                        <img class="postcard__img" src="./assets/img/Logo_Coder.jpg" alt="Logo CoderHouse"/>
+                    </a>
+                    <div class="postcard__text t-dark">
+                        <h1 class="postcard__title green"><a href="#">JavaScript</a></h1>
+                        <div class="postcard__subtitle small">
+                            <p class="titulo-institucion mr-2">CoderHouse - Argentina</p>
+                        </div>
+                        <div class="postcard__bar"></div>
+                        <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                        <ul class="postcard__tagbox">
+                            <li class="tag__item play green">
+                                <a href="#"><i class="fas fa-play mr-2"></i>Cursando</a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="postcard light yellow">
+                    <a class="postcard__img_link" href="#">
+                        <img class="postcard__img" src="./assets/img/Logo_Ingles.jpg" alt="Logo Ingles"/>
+                    </a>
+                    <div class="postcard__text t-dark">
+                        <h1 class="postcard__title yellow"><a href="#">Ingles A2+</a></h1>
+                        <div class="postcard__subtitle small">
+                            <p class="titulo-institucion mr-2">EUROIDIOMAS - Perú</p>
+                        </div>
+                        <div class="postcard__bar"></div>
+                        <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                        <ul class="postcard__tagbox">
+                            <li class="tag__item play yellow">
+                                <a href="#"><i class="fas fa-play mr-2"></i>Concluido - Certificado</a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>        
+        <!-- Estudios -->
+        <section class="certificaciones__section">
+            <!-- <div class="container text-center">
                 <h1 class="titulo-certificaciones"><u>Mis Certificaciones</u></h1>
             </div>
             <div class="">
@@ -169,12 +263,10 @@
                         <p>5 Horas</p>
                     </div> 
                 </div>
-            </div>
+            </div> -->
         </section>
-        <!-- Estudios -->
         <!-- Skills - Habilidades - Programas -->
         <section>
-
         </section>
     </main>
     <footer>
