@@ -616,4 +616,8 @@ a, a:hover {
 .my-float {
   margin-top: 16px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
 /*# sourceMappingURL=styles.css.map */
