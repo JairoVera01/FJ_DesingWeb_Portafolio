@@ -231,13 +231,12 @@
   font-family: 'Rubik', sans-serif;
 }
 
-/* This pen */
 .dark {
   background: #110f16;
 }
 
 .light {
-  background: white;
+  background: #F4F9FF;
 }
 
 a, a:hover {
@@ -253,7 +252,6 @@ a, a:hover {
   font-size: 2.5rem;
 }
 
-/* Cards */
 .postcard {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
