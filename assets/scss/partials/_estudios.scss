@@ -1,20 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-$main-green: #79dd09 !default;
-$main-green-rgb-015: rgba(121, 221, 9, 0.1) !default;
-$main-yellow: #bdbb49 !default;
-$main-yellow-rgb-015: rgba(189, 187, 73, 0.1) !default;
-$main-red: #bd150b !default;
-$main-red-rgb-015: rgba(189, 21, 11, 0.1) !default;
-$main-blue: #0076bd !default;
-$main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
+/*JavaScript*/
+$main-green: #000000 !default;
+$main-green-rgb-015: rgba(0,0,0,0.2) !default;
+
+/*Ingles*/
+$main-yellow: #4570cf !default;
+$main-yellow-rgb-015: rgba(69,112,207,0.2) !default;
+
+/*Desarrollo Web*/
+$main-red: #000000 !default;
+$main-red-rgb-015: rgba(0,0,0,0.2) !default;
+
+/*UPN COLOR*/
+$main-blue: #fcbf00 !default;
+$main-blue-rgb-015: rgba(252,191,0,0.2) !default;
 
 .estudios__section{
     height: 85vh;
     align-items: center;
     position: relative;
     overflow: hidden;
-    
 }
 
 .titulo-estudios, .titulo-certificaciones, .titulo-institucion, .subtitulo-institucion, .subtitulo-estado{
@@ -124,19 +130,24 @@ a {
     margin: 20px 0 0 0;
         padding: 0;
     justify-content: center;
+    text-decoration: none;
+    list-style: none;
     .tag__item {
     display: inline-block;
     background: rgba(83, 83, 83, 0.4);
     border-radius: 3px;
     padding: 2.5px 10px;
     margin: 0 5px 5px 0;
-    cursor: default;
     user-select: none;
     transition: background-color 0.3s;
         &:hover {
             background: rgba(83, 83, 83, 0.8);
         }
     }
+}
+
+.postcard_list{
+
 }
 
 &:before {
@@ -372,4 +383,7 @@ a {
 		);
 	}
 }
+
+
+
 

@@ -3,6 +3,7 @@
     z-index: 100;
     position: fixed;
     width: 100%;
+    
     overflow: hidden;
 }
 
@@ -10,18 +11,8 @@
     background-color: $color-secundario;
 }
 
-.nombre{
-    color: $color-principal;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 300;
-    font-size: 2rem;
-    padding-left: 2rem;
-    margin-top: 5px;
-    padding-top: 2px;
-}
-
 .nav-options{
-    padding-right: 2rem;
+    padding-right: 1.2rem;
     font-family: 'Rubik', sans-serif;
     &:hover{
         font-style: italic; 
@@ -29,3 +20,13 @@
     }
 }
 
+.name-home{
+    color: $color-principal;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    padding-left: 2rem;
+    margin-top: 5px;
+    padding-top: 2px;
+    text-decoration: none;
+}
