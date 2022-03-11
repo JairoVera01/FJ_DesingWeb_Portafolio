@@ -298,9 +298,11 @@ a {
 	background-image: linear-gradient(30deg, $main-blue-rgb-015, transparent 50%);
 }
 
+
 .postcard .postcard__tagbox .red.play:hover {
-	background: $main-red;
+	background: $color-btn-estudios;
 }
+
 .red .postcard__title:hover {
 	color: $main-red;
 }
