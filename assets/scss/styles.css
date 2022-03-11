@@ -18,7 +18,6 @@
 }
 
 .nav-options:hover {
-  font-style: italic;
   font-weight: 600;
 }
 
@@ -236,6 +235,7 @@
 .titulo-estudios, .titulo-certificaciones, .titulo-institucion, .subtitulo-institucion, .subtitulo-estado {
   color: #414756;
   font-family: 'Rubik', sans-serif;
+  padding-left: 0.2rem;
 }
 
 .dark {
@@ -303,6 +303,7 @@ a, a:hover {
 .postcard .postcard__title {
   font-size: 1.75rem;
   font-family: 'Rubik', sans-serif;
+  padding-left: 0.2rem;
 }
 
 .postcard .postcard__img {
@@ -325,6 +326,7 @@ a, a:hover {
   background-color: #424242;
   -webkit-transition: width 0.2s ease;
   transition: width 0.2s ease;
+  padding-left: 0.2rem;
 }
 
 .postcard .postcard__text {
@@ -344,6 +346,7 @@ a, a:hover {
   overflow: hidden;
   text-overflow: ellipsis;
   text-align: justify;
+  padding-left: 0.2rem;
   height: 100%;
   font-family: 'Rubik', sans-serif;
 }
