@@ -1,21 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/*JavaScript*/
-$main-green: #000000 !default;
-$main-green-rgb-015: rgba(0,0,0,0.2) !default;
-
-/*Ingles*/
-$main-yellow: #4570cf !default;
-$main-yellow-rgb-015: rgba(69,112,207,0.2) !default;
-
-/*Desarrollo Web*/
-$main-red: #000000 !default;
-$main-red-rgb-015: rgba(0,0,0,0.2) !default;
-
-/*UPN COLOR*/
-$main-blue: #fcbf00 !default;
-$main-blue-rgb-015: rgba(252,191,0,0.2) !default;
-
 .estudios__section{
     height: 85vh;
     align-items: center;
@@ -34,7 +18,7 @@ $main-blue-rgb-015: rgba(252,191,0,0.2) !default;
 }
 
 .light {
-	background: $color-txt-titulos;
+	background: white;
 }
 
 

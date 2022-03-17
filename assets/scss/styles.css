@@ -1,8 +1,11 @@
+/*JavaScript*/
+/*Ingles*/
+/*Desarrollo Web*/
+/*UPN COLOR*/
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
 .header {
   z-index: 100;
@@ -222,10 +225,6 @@
   }
 }
 
-/*JavaScript*/
-/*Ingles*/
-/*Desarrollo Web*/
-/*UPN COLOR*/
 .estudios__section {
   height: 85vh;
   -webkit-box-align: center;
@@ -245,7 +244,7 @@
 }
 
 .light {
-  background: #F4F9FF;
+  background: white;
 }
 
 #pageHeaderTitle {
@@ -609,24 +608,11 @@
 }
 
 .light-certificaciones {
-  background: #F4F9FF;
+  background: white;
 }
 
-:root {
-  --font3: 'Roboto', sans-serif;
-}
-
-.h1,
-h1 {
-  font-size: 1.5rem;
-}
-
-.container-fluid {
-  max-width: 1400px;
-}
-
-.card {
-  background: #fff;
+.card-certificaciones {
+  background: white;
   -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
           box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
   border: 1;
@@ -654,20 +640,13 @@ h1 {
           transform: scale(1.05);
 }
 
-.card h5 {
-  overflow: hidden;
-  height: 80px;
-  font-weight: 300;
-  font-size: 1rem;
+.title-centro-estudios {
+  font-family: 'Rubik', sans-serif;
 }
 
-.card h5 a {
-  color: black;
-  text-decoration: none;
-}
-
-.role {
+.descripcion-estudio {
   color: #7a7a7a;
+  font-family: 'Rubik', sans-serif;
 }
 
 .box {
@@ -697,7 +676,7 @@ h1 {
           transform: scale(1.1);
 }
 
-.card h2 {
+.card-certificaciones h5 {
   font-size: 1rem;
 }
 
